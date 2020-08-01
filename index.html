@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -101,6 +101,7 @@
 
     </header>
 
+
     <!-- <img class="second-small-screen" src="img/secondscreen1.jpg" alt=""> -->
 
 
@@ -120,7 +121,7 @@
         <h2>Кто мы <br>такие?</h2>
 
         <div class="reasons">
-            <p><mark><span>Мы</span> - это веб-студия, которая занимается разработкой<br> сайтов, дизайном, настройкой рекламы и другими<br> методами продвижения <strong>в интернете.</strong></mark></p>
+            <p><mark><span>Мы</span> профессионально занимаемся разработкой и<br>дизайном сайтов, настройкой рекламы и другими<br> методами продвижения <strong>в интернете.</strong></mark></p>
             <!-- <p><mark><span>У нас</span> большой опыт <strong>создания и продвижения сайтов</strong>, <br>что позволяет нам делать это в минимальные сроки.</mark></p> -->
             <p><mark><span>Мы</span> беремся как за заказы с нуля, так и дорабатываем<br> уже существующие <span>проекты.</span></mark></p>
             <!-- <p><mark><span>Наши</span> внутренние процессы идеально налажены, <br> что даёт нам возможность <strong>выполнять заказы</strong> за <br> максимально низкую цену.</mark></p> -->
@@ -128,8 +129,6 @@
         </div>
 
     </section>
-
-
 
     <script>
     wow = new WOW(
@@ -157,7 +156,7 @@
         <div class="container">
             <div class="price-title text-center">
                 <!-- <div class="line"></div> -->
-                <h2><mark>Услуги и стоимость</mark></h2>
+                <h2><mark>Предоставляемые услуги</mark></h2>
                 <p>Для более точной оценки оставьте заявку</p>
             </div>
 
@@ -379,6 +378,8 @@
         </div>
 
     </section>
+
+
 
     <section class="fourth-section" style="background-image: url(img/numbers-section1.jpg)">
 
@@ -630,7 +631,7 @@ window.addEventListener('scroll', function() {
 
                 <div class="col-7 col-md-4 offset-lg-1 steps-text-right">
                     <p class="step-text-title"><mark>Рассказываем вам <br>как управлять <br>сайтом</mark></p>
-                    <p class="stepsbr nobrtext">Если у вас нет опыта <span>управления </span><br>сайтом, рекламным аккаунтом <br>и прочими - не волнуйтесь, мы <br>вам всё <span>объясним</span> и <span>покажем</span></p>
+                    <p class="stepsbr nobrtext">Если у вас нет опыта <span>управления </span><br>сайтом, рекламным аккаунтом <br>и им подобными - не волнуйтесь, мы <br>вам всё <span>объясним</span> и <span>покажем</span></p>
                 </div>
                 <div class="col-4 col-md-2 offset-1">
                     <div class="steps-yellow">
@@ -869,8 +870,9 @@ window.onclick = function(event) {
 
         $( "button#sendMessageButton").click( function() {
             $( "#sendMessageButton" ).hide();
-            alert("Заявка отправлена. Мы свяжемся с вами в ближайшее время!");
             loadDoc();
+            alert("Заявка отправлена. Мы свяжемся с вами в ближайшее время!");
+
 
 
         }
@@ -887,12 +889,13 @@ window.onclick = function(event) {
     </script>
 
 <script>
-    console.log(name);
-    console.log(answer);
-    console.log(email);
+
 
     function loadDoc() {
-        let name = document.getElementById("name").value;
+    name = document.getElementById("name").value;
+     email = document.getElementById("email").value;
+     answer = document.getElementById("answer").value;
+
         console.log(name);
      //   let email = ;
      //   let answer = ;
@@ -902,8 +905,7 @@ window.onclick = function(event) {
         //  document.getElementById("demo").innerHTML = this.responseText;
           console.log(this.responseText);
         } else {
-            console.log("hello113");
-            alert();
+
         }
       };
       xhttp.open("POST", "send.php", true);
