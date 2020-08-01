@@ -16,7 +16,7 @@ ul {
 
 
 /* Стилизация прогрузки отправки данных из контакт-формы */
-  
+
 .loading {
     position: absolute;
     width: 100%;
@@ -30,7 +30,7 @@ ul {
     visibility: hidden;
     opacity: 0;
 }
-  
+
 @keyframes blink {
     from {
       opacity: 1;
@@ -42,7 +42,7 @@ ul {
       opacity: 1;
     }
 }
-  
+
 .loading p {
     font-size: 26px;
     font-weight: 600;
@@ -51,24 +51,24 @@ ul {
     font-family: 'Montserrat', sans-serif;
     animation: blink 0.7s infinite forwards ease-in-out;
 }
-  
+
 .animload {
     z-index: 1;
     opacity: 0.8;
 }
-  
+
 .error {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     background: #DC352F;
 }
-  
+
 .success {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     background: #ffd940;
 }
-  
+
 .msg {
     width: 340px;
     position: absolute;
@@ -83,24 +83,24 @@ ul {
     text-align: center;
     opacity: 0;
 }
-  
+
 .msgbox {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
-  
+
 @keyframes shake {
     from {transform: translateX(0px);}
     50% {transform: translateX(3px);}
     to {transform: translateX(-3px);}
 }
-  
+
 .inputerror {
     border-color: #DC352F !important;
     animation: shake 0.15s 3 forwards ease-in-out;
 }
-  
+
 
 
 
@@ -165,7 +165,7 @@ ul {
 }
 
 
-  
+
 #menuToggle input
   {
     display: -webkit-box;
@@ -216,27 +216,27 @@ ul {
 /* #menuToggle::after {
     margin-top: -38px;
     margin-left: 48px;
-    content: "меню"; 
+    content: "меню";
     color: #818181;
     font-size: 27px;
     font-weight: 800;
 } */
-  
-  
+
+
 #menuToggle span:first-child
   {
     -webkit-transform-origin: 0% 0%;
         -ms-transform-origin: 0% 0%;
             transform-origin: 0% 0%;
 }
-  
+
 #menuToggle span:nth-last-child(2)
   {
     -webkit-transform-origin: 0% 100%;
         -ms-transform-origin: 0% 100%;
             transform-origin: 0% 100%;
 }
-  
+
 #menuToggle input:checked ~ span
   {
     opacity: 1;
@@ -252,14 +252,14 @@ ul {
         -ms-transform: rotate(0deg) scale(0.2, 0.2);
             transform: rotate(0deg) scale(0.2, 0.2);
 }
-  
+
 #menuToggle input:checked ~ span:nth-last-child(2)
   {
     -webkit-transform: rotate(-45deg) translate(0, -1px);
         -ms-transform: rotate(-45deg) translate(0, -1px);
             transform: rotate(-45deg) translate(0, -1px);
 }
-  
+
 #menu
   {
     position: absolute;
@@ -282,15 +282,15 @@ ul {
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), -webkit-transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-  
+
 #menu li
-  {    
+  {
     padding: 10px 0;
     -webkit-transition-delay: 2s;
          -o-transition-delay: 2s;
             transition-delay: 2s;
 }
-  
+
 #menuToggle input:checked ~ ul
   {
     -webkit-transform: none;
@@ -403,7 +403,7 @@ ul {
 }
 
 .button-wrapper:hover {
-    
+
     text-decoration: none;
 }
 
@@ -432,7 +432,7 @@ ul {
     -webkit-animation-direction: alternate;
             animation-direction: alternate;
     -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;   
+            animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes mousedown {
@@ -472,7 +472,7 @@ ul {
 .first-section .step-section-title {
     font-size: 35px;
     font-weight: 900;
-    
+
 }
 
 .first-section .step-section-title mark {
@@ -487,7 +487,7 @@ ul {
 
 /* Portfolio elements */
 
-/* 
+/*
 .portfolio-elements img {
     max-width: 100%;
     height: auto;
@@ -570,7 +570,7 @@ ul {
     -o-transition: all 600ms ease;
     transition: all 600ms ease;
 }
-  
+
 .portfolio-item:hover .hover p {
     opacity: 1;
     color: #363636;
@@ -668,7 +668,7 @@ ul {
     -o-transition: all 600ms ease;
     transition: all 600ms ease;
 }
-  
+
 .portfolio-item:hover .hover p {
     color: #363636;
     -webkit-transition: all 600ms ease;
@@ -689,7 +689,7 @@ ul {
     overflow: hidden;
     min-height: 600px;
     background-color: #363636;
-    margin-top: 40px;
+    margin-top: ;
 }
 
 .price-title {
@@ -744,13 +744,13 @@ ul {
     position: absolute;
     height: 70%;
     left: 0px;
-    top: 15%; 
+    top: 15%;
 }
 
 .second-section .icon-line1 {
     position: absolute;
     right: 0px;
-    top: 15%; 
+    top: 15%;
 }
 
 .second-section .icon-line2 {
@@ -862,7 +862,7 @@ table.text td {
     width: 50%; /* Ширина ячеек */
     vertical-align: top; /* Выравнивание по верхнему краю */
 }
-td.rightcol { /* Правая ячейка */ 
+td.rightcol { /* Правая ячейка */
     text-align: right;
     font-weight: 700;
     font-size: 15px;
@@ -1159,10 +1159,10 @@ table.text {
 
 .fifth-section .steps-dark .icon-steps {
     height: 170px;
-    
+
 }
 
-/* 
+/*
 .fifth-section .steps-title1 {
     background-color: #ffd940;
     height: 40px;
@@ -1186,11 +1186,11 @@ table.text {
     font-weight: 800;
 } */
 
-.steps-text-left {   
+.steps-text-left {
     text-align: left;
 }
 
-.steps-text-right {   
+.steps-text-right {
     text-align: right;
 }
 
@@ -1247,11 +1247,11 @@ table.text {
 
 .sixth-section .step-section-title br {
     display: none;
-    
+
 }
 
 .sixth-section .appl p br {
-    display: none; 
+    display: none;
 }
 
 .sixth-section .appl p {
@@ -1320,8 +1320,8 @@ select#answer.variant_otveta_2 .basic-var {
 }
 
 select#name.variant_otveta option p {
-    
-    border: 1px solid #ffd940;   
+
+    border: 1px solid #ffd940;
 }
 
 
@@ -1451,13 +1451,13 @@ select#answer.variant_otveta_2 {
     position: absolute;
     height: 70%;
     left: 0px;
-    top: 15%; 
+    top: 15%;
 }
 
 .sixth-section .icon-line1 {
     position: absolute;
     right: 0px;
-    top: 15%; 
+    top: 15%;
 }
 
 .sixth-section .icon-line2 {
@@ -1645,7 +1645,7 @@ select#answer.variant_otveta_2 {
     color: #fff;
 }
 
-    
+
 .line {
     position: absolute;
     background-color: #ffd940;
@@ -1693,7 +1693,7 @@ select#answer.variant_otveta_2 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-  
+
   /* Modal Content/Box */
 .modal-content {
     background-color: #363636;
@@ -1705,7 +1705,7 @@ select#answer.variant_otveta_2 {
     width: 80%; /* Could be more or less, depending on screen size */
 }
 
-  
+
   /* The Close Button */
 .close {
     position: absolute;
@@ -1721,7 +1721,7 @@ select#answer.variant_otveta_2 {
     text-align: center;
     color: #fff;
 }
-  
+
 .close:hover,
 .close:focus {
     color: #fff;
@@ -1946,12 +1946,12 @@ select#answer.variant_otveta_2 {
         height: 120px;
         width: 65px;
     }
-    
+
     .button-wrapper {
         height: 75px;
-        width: 215px;    
+        width: 215px;
     }
-    
+
     .button-wrapper a {
         line-height: 70px;
         font-size: 20px;
@@ -1960,7 +1960,7 @@ select#answer.variant_otveta_2 {
     .ord a {
         font-size: 20px;
         padding: 20px 30px;
-        
+
     }
 
     .fourth-section .icon-smartphone {
@@ -1969,7 +1969,7 @@ select#answer.variant_otveta_2 {
         left: 30%;
         bottom: 0;
     }
-    
+
     .fourth-section .icon-rocket {
         position: absolute;
         width: 6%;
@@ -1988,7 +1988,7 @@ select#answer.variant_otveta_2 {
         left: 5%;
         position: absolute;
     }
-    
+
 
 }
 
@@ -2003,14 +2003,14 @@ select#answer.variant_otveta_2 {
   {
     padding: 60px;
     padding-top: 225px;
-    
+
 }
 
     .second-section .icon-article {
         position: absolute;
         height: 55%;
         left: 0px;
-        top: 22%; 
+        top: 22%;
     }
 
     /* WHYWE */
@@ -2044,7 +2044,7 @@ select#answer.variant_otveta_2 {
     .fourth-section h2 br {
         display: none;
     }
-    
+
     /* BETTER AND CHEAPER SECTION */
     .seventh-section .icon-person {
         bottom: 25%;
@@ -2064,7 +2064,7 @@ select#answer.variant_otveta_2 {
         top: 10%;
         width: 8%;
     }
-    
+
 
 
 }
@@ -2083,7 +2083,7 @@ select#answer.variant_otveta_2 {
     .mainscreen h1 {
         font-size: 70px;
     }
-    
+
     .mouse {
         display: none;
     }
@@ -2091,31 +2091,31 @@ select#answer.variant_otveta_2 {
     .second-small-screen {
         display: none;
     }
-    
+
 
     /* PRICES SECTION */
 
     .smooth-hexagon {
         width: 200px;
     }
-    
+
     .price-composition {
         padding-bottom: 40px;
     }
-    
+
     .price-composition h3 {
         padding-top: 25px;
         color: #fff;
         font-size: 23px;
         font-weight: 700;
     }
-    
+
     .price-composition p {
         padding-top: 15px;
         color: #767676;
         font-size: 13px;
     }
-    
+
     .price-composition .prices {
         padding-top: 0px;
         color: #ffd940;
@@ -2130,7 +2130,7 @@ select#answer.variant_otveta_2 {
 
 
     /* WHYWE SECTION */
-    
+
     .third-section h2 {
         font-size: 70px;
         left: 15%;
@@ -2158,7 +2158,7 @@ select#answer.variant_otveta_2 {
         bottom: 17%;
     }
 
-    
+
     /* NUMBERS SECTION */
 
     .fourth-section {
@@ -2172,7 +2172,7 @@ select#answer.variant_otveta_2 {
         left: 15%;
         bottom: 0;
     }
-    
+
     .fourth-section .icon-rocket {
         position: absolute;
         width: 10%;
@@ -2202,7 +2202,7 @@ select#answer.variant_otveta_2 {
     .forbig {
         display: none;
     }
-    
+
 
 
 
@@ -2211,7 +2211,7 @@ select#answer.variant_otveta_2 {
         font-size: 20px;
         font-weight: 800;
     }
-    
+
     .fifth-section p {
         font-size: 14px;
     }
@@ -2225,7 +2225,7 @@ select#answer.variant_otveta_2 {
         position: absolute;
         width: 8%;
     }
-    
+
     .sixth-section .icon-search {
         top: 30%;
         right: 8%;
@@ -2238,7 +2238,7 @@ select#answer.variant_otveta_2 {
     }
 
     .sixth-section .appl p br {
-        display: block; 
+        display: block;
     }
 
     .sixth-section .appl {
@@ -2249,12 +2249,12 @@ select#answer.variant_otveta_2 {
     .sixth-section .second-el {
         padding-top: 25px;;
     }
-    
+
     select#answer.variant_otveta_2 {
         margin-top: 20px;
     }
 
-    
+
     /* CHEAPER AND BETTER SECTION */
 
     .seventh-section p br {
@@ -2293,7 +2293,7 @@ select#answer.variant_otveta_2 {
         font-weight: 700;
         margin-bottom: 5px;
     }
-    
+
     .p-p-case-text {
         font-size: 15px;
         color: #797979;
@@ -2308,7 +2308,7 @@ select#answer.variant_otveta_2 {
         margin-top: 20px;
         margin-bottom: 10px;
     }
-    
+
     .case-show-text {
         color: #797979;
         font-size: 15px;
@@ -2330,7 +2330,7 @@ select#answer.variant_otveta_2 {
         display: none;
     }
 
-    
+
 
     .mainscreen .prik h1 {
     }
@@ -2338,10 +2338,10 @@ select#answer.variant_otveta_2 {
     .button-wrapper {
         left: 0px;
         margin: auto;
-        top: 80%; 
+        top: 80%;
     }
 
-    
+
 
 
         /* PORTFOLIO SECTION */
@@ -2361,41 +2361,41 @@ select#answer.variant_otveta_2 {
 
     /* PRICES SECTION */
 
-    
-   
+
+
     .second-section .icon-line1 {
         display: none;
         position: absolute;
         right: 0px;
-        top: 15%; 
+        top: 15%;
     }
-    
+
     .second-section .icon-line2 {
         display: none;
         left: 10%;
         position: absolute;
     }
-    
+
     .second-section .icon-line3 {
         bottom: 0px;
         right: 5%;
         position: absolute;
     }
-    
+
     .second-section .icon-finger {
         bottom: 20%;
         right: 10%;
         position: absolute;
         width: 15%;
     }
-    
+
     .second-section .icon-search {
         top: 20%;
         right: 3%;
         position: absolute;
         width: 15%;
     }
-    
+
     .second-section .icon-design {
         bottom: 45%;
         left: 87%;
@@ -2413,7 +2413,7 @@ select#answer.variant_otveta_2 {
     }
 
     /* WHYWE SECTION */
-    
+
     .third-section h2 {
         font-size: 70px;
         left: 10%;
@@ -2429,7 +2429,7 @@ select#answer.variant_otveta_2 {
         font-size: 14px;
     }
 
-    
+
 
     .third-section .icon-computer-data {
         width: 12%;
@@ -2450,7 +2450,7 @@ select#answer.variant_otveta_2 {
         left: 10%;
         bottom: 0;
     }
-    
+
     .fourth-section .icon-rocket {
         position: absolute;
         width: 11%;
@@ -2471,7 +2471,7 @@ select#answer.variant_otveta_2 {
         position: absolute;
         width: 11%;
     }
-    
+
     .sixth-section .icon-search {
         top: 48%;
         right: 35%;
@@ -2487,7 +2487,7 @@ select#answer.variant_otveta_2 {
 
     .sixth-section .step-section-title br {
         display: none;
-        
+
     }
 
 
@@ -2504,7 +2504,7 @@ select#answer.variant_otveta_2 {
         padding-top: 60px;
         padding-left: 70px;
     }
-    
+
     .seventh-section .icon-choose {
         left: 35%;
         bottom: 38%;
@@ -2568,7 +2568,7 @@ select#answer.variant_otveta_2 {
     .seventh-section .icon-linehg4 {
         display: none;
     }
-   
+
     .seventh-section .icon-finger {
         display: none;
     }
@@ -2583,7 +2583,7 @@ select#answer.variant_otveta_2 {
     #menuToggle {
         top: 45px;
         left: 50px;
-        
+
     }
 
     #menu
@@ -2591,7 +2591,7 @@ select#answer.variant_otveta_2 {
         height: 104vh;
         padding: 80px;
         padding-top: 225px;
-      
+
     }
 
     #menuToggle ul li a {
@@ -2624,7 +2624,7 @@ select#answer.variant_otveta_2 {
     .portfolio-item .hover {
         top: 44%;
         left: 0px;
-        
+
     }
 
 
@@ -2634,14 +2634,14 @@ select#answer.variant_otveta_2 {
         position: absolute;
         width: 15%;
     }
-    
+
     .second-section .icon-search {
         top: 20%;
         right: 3%;
         position: absolute;
         width: 15%;
     }
-    
+
     .second-section .icon-design {
         bottom: 45%;
         left: 87%;
@@ -2678,7 +2678,7 @@ select#answer.variant_otveta_2 {
     .sixth-section .step-section-title {
         font-size: 30px;
     }
-    
+
     .sixth-section .appl p {
         padding-top: 15px;
         font-size: 17px;
@@ -2726,7 +2726,7 @@ select#answer.variant_otveta_2 {
         height: 40px;
         width: 130px;
     }
-    
+
     .logo p {
         line-height: 40px;
         font-size: 29px;
@@ -2742,7 +2742,7 @@ select#answer.variant_otveta_2 {
         width: 32px;
         height:4px;
         margin-bottom: 4px;
-        
+
 }
 
     #menuToggle input:checked ~ span
@@ -2763,13 +2763,13 @@ select#answer.variant_otveta_2 {
         top: 78%;
     }
 
-    
+
 
     .portfolio-item .hover {
         top: 43%;
         left: 0px;
     }
-   
+
     .portfolio-item .hover p {
         font-size: 25px;
     }
